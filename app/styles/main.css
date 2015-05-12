@@ -1,0 +1,37 @@
+body {
+    min-height: 400px;
+    margin: 20px;
+    background-color: #E5E5E5 !important;
+    font-family: 'Roboto Slab','Times New Roman',serif;
+    font-size: 14px;
+    color: #333;
+    -webkit-user-select: none;
+}
+
+.shadow-bottom {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+}
+
+.bar {
+    padding: 8px;
+    margin-top: 12px;
+    background: #fff;
+}
+
+.entry {
+    position: relative;
+    max-width: 600px;
+    padding: 12px;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    margin: 16px 0;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+    -webkit-transition-duration: .218s;
+    transition-duration: .218s;
+    -webkit-transition-property: color,opacity;
+    transition-property: color,opacity;
+    vertical-align: text-bottom;
+}

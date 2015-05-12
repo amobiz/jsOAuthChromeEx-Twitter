@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css styles/main.css -->
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <h1>jsOAuthChromeEx.js Example - Twitter</h1>
+
+        <section class="bar shadow-bottom">
+            <p><a target="_blank" href="https://bytespider.github.com/jsOAuth/">jsOAuth</a> is a JavaScript implimentation of the OAuth protocol. Currently supports version 1.0 (RFC5849) of the specification.</p>
+            <p>The <a target="_blank" href="https://github.com/amobiz/jsOAuthChromeEx/">jsOAuth plugin for Google Chrome Extension</a> is an extension that enables Google Chrome Extension support.
+              Please checkout <a target="_blank" href="https://github.com/amobiz/jsOAuthChromeEx/">README</a> for full description.</p>
+            <p>You'll need to create an account on <a target="_blank" href="https://twitter.com/">Twitter</a>.</p>
+            <p>And then "<a href="https://apps.twitter.com/">Create New App</a>".</p>
+            <p>Make sure the Callback URL field has a valid value (for chrome extension, this url is not invoked).</p>
+            <p>Fill in the <code>consumerKey</code> and <code>consumerSecret</code> in the form below.
+              (Normally you will put these keys directly somewhere in your code.)</p>
+            <p>Please report issues <a target="_blank" href="https://github.com/amobiz/jsOAuthChromeEx/issues">here</a>.</p>
+            <p>Released under the MIT. Please see LICENSE in the project root folder for more information.</p>
+        </section>
+
+        <section class="bar shadow-bottom">
+            <header>API Key</header>
+            <form>
+                <div><label>consumerKey: <input type="text" id="consumerKey" name="consumerKey"></label></div>
+                <div><label>consumerSecret: <input type="text" id="consumerSecret" name="consumerSecret"></label></div>
+                <button id="authorize">Authorize</button>
+            </form>
+        </section>
+
+        <ul id="container" style="list-style: none"></ul>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/options.js -->
+        <script src="scripts/options.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

@@ -8,7 +8,7 @@ This sample uses the following libraries:
 
 You'll need to create an account on [Twitter](https://twitter.com/).
 
-And then "[Create New App](https://apps.twitter.com/)".p>
+And then "[Create New App](https://apps.twitter.com/)".
 
 Make sure the Callback URL field has a valid value (for chrome extension, this url is not invoked).
 
